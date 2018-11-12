@@ -78,8 +78,8 @@ function inches() {
   let input = prompt("Enter a non-negative integer."); // DO NOT MODIFY
   /////////////////////////////////////////////////////// DO NOT MODIFY
 
-  // You are free to modify the value of @inches, which you'll likely
-  // need to do. Please do not modify the value of @input.
+  // You are free to modify the value of inches, which you'll likely
+  // need to do. Please do not modify the value of input.
 
   ////////////////////// DO NOT MODIFY
   let inches = input; // DO NOT MODIFY
@@ -102,8 +102,8 @@ function centimeters() {
   let input = prompt("Enter a non-negative integer."); // DO NOT MODIFY
   /////////////////////////////////////////////////////// DO NOT MODIFY
 
-  // You are free to modify the value of @centimeters, which you'll
-  // likely need to do. Please do not modify the value of @input.
+  // You are free to modify the value of centimeters, which you'll
+  // likely need to do. Please do not modify the value of input.
 
   /////////////////////////// DO NOT MODIFY
   let centimeters = input; // DO NOT MODIFY
@@ -126,8 +126,8 @@ function fluidOunces() {
   let input = prompt("Enter a non-negative integer."); // DO NOT MODIFY
   /////////////////////////////////////////////////////// DO NOT MODIFY
 
-  // You are free to modify the value of @fluidOunces, which you'll
-  // likely need to do. Please do not modify the value of @input.
+  // You are free to modify the value of fluidOunces, which you'll
+  // likely need to do. Please do not modify the value of input.
 
   /////////////////////////// DO NOT MODIFY
   let fluidOunces = input; // DO NOT MODIFY
@@ -150,8 +150,8 @@ function ounces() {
   let input = prompt("Enter a non-negative integer."); // DO NOT MODIFY
   /////////////////////////////////////////////////////// DO NOT MODIFY
 
-  // You are free to modify the value of @ounces, which you'll likely
-  // need to do. Please do not modify the value of @input.
+  // You are free to modify the value of ounces, which you'll likely
+  // need to do. Please do not modify the value of input.
 
   ////////////////////// DO NOT MODIFY
   let ounces = input; // DO NOT MODIFY
@@ -174,8 +174,8 @@ function money() {
   let input = prompt("Enter a non-negative integer."); // DO NOT MODIFY
   /////////////////////////////////////////////////////// DO NOT MODIFY
 
-  // You are free to modify the value of @pennies, which you'll likely
-  // need to do. Please do not modify the value of @input.
+  // You are free to modify the value of pennies, which you'll likely
+  // need to do. Please do not modify the value of input.
 
   /////////////////////// DO NOT MODIFY
   let pennies = input; // DO NOT MODIFY
@@ -198,8 +198,8 @@ function change() {
   let input = prompt("Enter a non-negative number less than 1.00."); // DO NOT MODIFY
   ///////////////////////////////////////////////////////////////////// DO NOT MODIFY
 
-  // You are free to modify the value of @amount, which you'll likely
-  // need to do. Please do not modify the value of @input.
+  // You are free to modify the value of amount, which you'll likely
+  // need to do. Please do not modify the value of input.
 
   ////////////////////// DO NOT MODIFY
   let amount = input; // DO NOT MODIFY
