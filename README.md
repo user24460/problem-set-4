@@ -43,7 +43,7 @@ Write a function to display `Hello, AP Computer Science Principles!` in the para
 
 ### Exercise 2 (`Hello, Again.`)
 
-Write a function to ask the user to enter his or her name, and display a a message in the paragraph provided in the HTML template file. The message should read `Hello, <NAME>!`, where `<NAME>` is the name the user entered. Test your code by clicking the `Hello, Again` button.
+Write a function to ask the user to enter his or her name, and display a message in the paragraph provided in the HTML template file. The message should read `Hello, <NAME>!`, where `<NAME>` is the name the user entered. Test your code by clicking the `Hello, Again` button.
 
 ### Exercise 3 (`Celsius.`)
 
