@@ -17,9 +17,12 @@ function hello() {
 
 function helloAgain() {
 
-  //////////// DO NOT MODIFY      Use the @name variable to store
-  let name; // DO NOT MODIFY      the value that the user enters
-  //////////// DO NOT MODIFY      in response to your prompt.
+  //////////// DO NOT MODIFY
+  let name; // DO NOT MODIFY
+  //////////// DO NOT MODIFY
+
+  // Use the name variable declared above to store the user's response. You
+  // do not need to re-declare it, only assign it a value.
 
   // WRITE YOUR EXERCISE 2 CODE HERE
 
