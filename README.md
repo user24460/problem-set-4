@@ -57,25 +57,37 @@ Write a function to convert a randomly generated Fahrenheit temperature to an eq
 
 Write a function to convert a number of inches into an equivalent number of miles, yards, feet, and inches. Use a greedy algorithm, meaning you should use as many of the larger units of distance as you can (i.e., miles, yards, feet, and inches, in that order). Report each unit's value on its own line. Test your code by clicking the `Inches` button.
 
+As a hint, you might find the built-in [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) helpful when solving this problem.
+
 ### Exercise 6 (`Centimeters.`)
 
 Write a function to convert a number of centimeters into an equivalent number of kilometers, meters, and centimeters. Use a greedy algorithm, meaning you should use as many of the larger units of distance as you can (i.e., kilometers, meters, and centimeters, in that order). Report each unit's value on its own line. Test your code by clicking the `Centimeters` button.
+
+As a hint, you might find the built-in [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) helpful when solving this problem.
 
 ### Exercise 7 (`Fluid Ounces.`)
 
 Write a function to convert a number of fluid ounces into an equivalent number of gallons, quarts, pints, cups, and fluid ounces. Use a greedy algorithm, meaning you should use as many of the larger units of volume as you can (i.e., gallons, quarts, pints, cup, and fluid ounces, in that order). Report each unit's value on its own line. Test your code by clicking the `Fluid Ounces` button.
 
+As a hint, you might find the built-in [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) helpful when solving this problem.
+
 ### Exercise 8 (`Ounces.`)
 
 Write a function to convert a number of ounces into an equivalent number of tons, pounds, and ounces. Use a greedy algorithm, meaning you should use as many of the larger units of weight as you can (i.e., tons, pounds, and ounces, in that order). Report each unit's value on its own line. Test your code by clicking the `Ounces` button.
+
+As a hint, you might find the built-in [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) helpful when solving this problem.
 
 ### Exercise 9 (`Money.`)
 
 Write a function to convert a number of ounces into an equivalent number of tons, pounds, and ounces. Use a greedy algorithm, meaning you should use as many of the larger units of weight as you can (i.e., tons, pounds, and ounces, in that order). Report each unit's value on its own line. Test your code by clicking the `Money` button.
 
+As a hint, you might find the built-in [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) helpful when solving this problem.
+
 ### Exercise 10 (`Change.`)
 
 Write a function to ask the user for a dollar amount less 1.00 (leading zeroes are required, but dollar signs should be omitted). Display the fewest number of coins (quarters, dimes, nicks, and pennies) with which the change can be made. Test your code by clicking the `Change` button.
+
+As a hint, you might find the built-in [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) helpful when solving this problem.
 
 ## Deadline
 
