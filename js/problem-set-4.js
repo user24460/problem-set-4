@@ -16,8 +16,7 @@ function hello() {
  */
 
 function helloAgain() {
-  var retVal = prompt("Enter Your Name Please : ", "Your Name");
-  document.getElementById("output2").innerHTML = ("Hello, " + retVal + "!");
+
   //////////// DO NOT MODIFY
   let name; // DO NOT MODIFY
   //////////// DO NOT MODIFY
@@ -25,7 +24,8 @@ function helloAgain() {
   // Use the name variable declared above to store the user's response. You
   // do not need to re-declare it, only assign it a value.
 
-  // WRITE YOUR EXERCISE 2 CODE HERE
+  var retVal = prompt("Enter Your Name Please : ", "Your Name");
+  document.getElementById("output2").innerHTML = ("Hello, " + retVal + "!");
 
   ///////////////////////////// DO NOT MODIFY
   check("helloAgain", name); // DO NOT MODIFY
@@ -45,7 +45,10 @@ function celsius() {
   // The above code generates a random number between -100 and 1000
   // (inclusive), and rounds this value to 2 decimal places.
 
-  // WRITE YOUR EXERCISE 3 CODE HERE
+  var cel1 = cels + 32;
+  var cel2 = cel1 * .5556;
+  document.getElementById("output3").innerHTML = ("The answer is" + cel2);
+
 
   ////////////////////////// DO NOT MODIFY
   check("celsius", cels); // DO NOT MODIFY
@@ -56,8 +59,6 @@ function celsius() {
  * Fahrenheit. 5 points.
  */
 
-function fahrenheit() {
-
   //////////////////////////////////////////////////////// DO NOT MODIFY
   let fahr = ((Math.random() * 1001) - 100).toFixed(2); // DO NOT MODIFY
   //////////////////////////////////////////////////////// DO NOT MODIFY
@@ -65,7 +66,7 @@ function fahrenheit() {
   // The above code generates a random number between -100 and 1000
   // (inclusive), and rounds this value to 2 decimal places.
 
-  // WRITE YOUR EXERCISE 4 CODE HERE
+  // Write your exercise 4 code here
 
   ///////////////////////////// DO NOT MODIFY
   check("fahrenheit", fahr); // DO NOT MODIFY
