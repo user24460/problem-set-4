@@ -45,9 +45,11 @@ function celsius() {
   // The above code generates a random number between -100 and 1000
   // (inclusive), and rounds this value to 2 decimal places.
 
-  var cel1 = cels + 32;
-  var cel2 = cel1 * .5556;
-  document.getElementById("output3").innerHTML = ("The answer is" + cel2);
+  var cel1 = cels * (9/5);
+  var cel2 = cel1 + 32;
+  var cel3 = cel2.toFixed(2);
+  document.getElementById("output3").innerHTML = (cels + "degrees Celsius equals"
+  + cel3 + "degrees Fahrenheit");
 
 
   ////////////////////////// DO NOT MODIFY
@@ -58,6 +60,7 @@ function celsius() {
 /*
  * Fahrenheit. 5 points.
  */
+function fahrenheit() {
 
   //////////////////////////////////////////////////////// DO NOT MODIFY
   let fahr = ((Math.random() * 1001) - 100).toFixed(2); // DO NOT MODIFY
