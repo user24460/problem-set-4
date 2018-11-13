@@ -48,9 +48,8 @@ function celsius() {
   var cel1 = cels * (9/5);
   var cel2 = cel1 + 32;
   var cel3 = cel2.toFixed(2);
-  document.getElementById("output3").innerHTML = (cels + "degrees Celsius equals"
-  + cel3 + "degrees Fahrenheit");
-
+  document.getElementById("output3").innerHTML = (cels + " " + "degrees Celsius equals"
+  + " " + cel3 + " " + "degrees Fahrenheit.");
 
   ////////////////////////// DO NOT MODIFY
   check("celsius", cels); // DO NOT MODIFY
@@ -69,7 +68,11 @@ function fahrenheit() {
   // The above code generates a random number between -100 and 1000
   // (inclusive), and rounds this value to 2 decimal places.
 
-  // Write your exercise 4 code here
+  var fahr1 = fahr - 32;
+  var fahr2 = fahr1 * (5/9);
+  var fahr3 = fahr2.toFixed(2);
+  document.getElementById("output4").innerHTML = (fahr + " " + "degrees Fahrenheit equals"
+  + " " + fahr3 + " " + "degrees Celsius.");
 
   ///////////////////////////// DO NOT MODIFY
   check("fahrenheit", fahr); // DO NOT MODIFY
