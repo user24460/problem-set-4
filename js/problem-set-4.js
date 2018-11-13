@@ -3,8 +3,7 @@
  */
 
 function hello() {
-
-  // WRITE YOUR EXERCISE 1 CODE HERE
+  document.
 
   ////////////////// DO NOT MODIFY
   check("hello"); // DO NOT MODIFY
