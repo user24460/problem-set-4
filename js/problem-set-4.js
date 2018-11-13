@@ -3,7 +3,8 @@
  */
 
 function hello() {
-  document.
+
+  document.getElementById("output1").innerHTML = "Hello, AP Computer Science Principles!";
 
   ////////////////// DO NOT MODIFY
   check("hello"); // DO NOT MODIFY
@@ -15,7 +16,8 @@ function hello() {
  */
 
 function helloAgain() {
-
+  var retVal = prompt("Enter Your Name Please : ", "Your Name");
+  document.getElementById("output2").innerHTML = ("Hello, " + retVal + "!");
   //////////// DO NOT MODIFY
   let name; // DO NOT MODIFY
   //////////// DO NOT MODIFY
