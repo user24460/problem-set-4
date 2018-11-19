@@ -24,8 +24,8 @@ function helloAgain() {
   // Use the name variable declared above to store the user's response. You
   // do not need to re-declare it, only assign it a value.
 
-  var retVal = prompt("Enter Your Name Please : ", "Your Name");
-  document.getElementById("output2").innerHTML = ("Hello, " + retVal + "!");
+  name = prompt("Enter Your Name Please : ", "Your Name");
+  document.getElementById("output2").innerHTML = ("Hello, " + name + "!");
 
   ///////////////////////////// DO NOT MODIFY
   check("helloAgain", name); // DO NOT MODIFY
@@ -105,7 +105,7 @@ function inches() {
   let rInches = Math.floor(inches/1);
   inches = inches%1;
   document.getElementById('output5').innerHTML =
-  `Miles: ${miles} <br/> Yards: ${yards} <br/> Feet: ${feet} <br/> Inches: ${rInches}`;
+  `Miles: ${miles}<br/>Yards: ${yards}<br/>Feet: ${feet}<br/>Inches: ${rInches}`;
 
   ////////////////////////// DO NOT MODIFY
   check("inches", input); // DO NOT MODIFY
@@ -136,7 +136,7 @@ function centimeters() {
   let rCentimeters = Math.floor(centimeters/1);
   centimeters = centimeters%1;
   document.getElementById('output6').innerHTML =
-  `Kilometers: ${kilometers} <br/> Meters: ${meters} <br/> Centimeters: ${rCentimeters}`;
+  `Kilometers: ${kilometers}<br/>Meters: ${meters}<br/>Centimeters: ${rCentimeters}`;
 
   /////////////////////////////// DO NOT MODIFY
   check("centimeters", input); // DO NOT MODIFY
@@ -171,7 +171,7 @@ function fluidOunces() {
   let rFluidOunces = Math.floor(fluidOunces/1);
   fluidOunces = fluidOunces%1;
   document.getElementById('output7').innerHTML =
-  `Gallons: ${gallons} <br/> Quarts: ${quarts} <br/> Pints: ${pints} <br/> Cups: ${cups} <br/> Fluid Ounches: ${rFluidOunces}`;
+  `Gallons: ${gallons}<br/>Quarts: ${quarts}<br/>Pints: ${pints}<br/>Cups: ${cups}<br/>Fluid Ounces: ${rFluidOunces}`;
   /////////////////////////////// DO NOT MODIFY
   check("fluidOunces", input); // DO NOT MODIFY
   /////////////////////////////// DO NOT MODIFY
@@ -201,7 +201,7 @@ function ounces() {
   let rOunces = Math.floor(ounces/1);
   ounces = ounces%1;
   document.getElementById('output8').innerHTML =
-  `Tons: ${tons} <br/> Pounds: ${pounds} <br/> Ounces: ${rOunces}`;
+  `Tons: ${tons}<br/>Pounds: ${pounds}<br/>Ounces: ${rOunces}`;
   ////////////////////////// DO NOT MODIFY
   check("ounces", input); // DO NOT MODIFY
   ////////////////////////// DO NOT MODIFY
@@ -235,7 +235,7 @@ function money() {
   let rPennies = Math.floor(pennies/1);
   pennies = pennies%1;
   document.getElementById('output9').innerHTML =
-  `Dollars: ${dollars} <br/> Quarters: ${quarters} <br/> Dimes: ${dimes} <br/> Nickels: ${nickels} <br/> Pennies: ${rPennies}`;
+  `Dollars: ${dollars}<br/>Quarters: ${quarters}<br/>Dimes: ${dimes}<br/>Nickels: ${nickels}<br/>Pennies: ${rPennies}`;
   ///////////////////////// DO NOT MODIFY
   check("money", input); // DO NOT MODIFY
   ///////////////////////// DO NOT MODIFY
@@ -257,7 +257,7 @@ function change() {
   ////////////////////// DO NOT MODIFY
   let amount = input; // DO NOT MODIFY
   ////////////////////// DO NOT MODIFY
-
+  amount = amount*100;
   let rQuarters = Math.floor(amount/25);
   let rDimes = Math.floor((amount-(rQuarters*25))/10);
   let rNickels = Math.floor((amount-(rQuarters*25)-(rDimes*10))/5);
